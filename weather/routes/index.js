@@ -3,7 +3,7 @@ const router = express.Router();
 const fetch = require("node-fetch");
 require('dotenv').config();
 const OWM_API_KEY = process.env.OWM_API_KEY || 'invalid_key';
-const UNITS = process.env.UNITS || 'metric';
+const UNITS = http://api.openweathermap.org/data/2.5/weather?q=New%20York&units=metric&appid=e7b7231594c7dfd464d9ff03cc2865d9process.env.UNITS || 'metric';
 
 /* GET home page. */
 router.get('/', function(req, res) {
