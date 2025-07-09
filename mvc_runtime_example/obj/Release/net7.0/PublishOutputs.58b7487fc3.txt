@@ -1,0 +1,7 @@
+/root/dotnet/mvc_runtime_example/bin/Release/net7.0/publish/mvc_runtime_example
+/root/dotnet/mvc_runtime_example/bin/Release/net7.0/publish/appsettings.Development.json
+/root/dotnet/mvc_runtime_example/bin/Release/net7.0/publish/appsettings.json
+/root/dotnet/mvc_runtime_example/bin/Release/net7.0/publish/mvc_runtime_example.dll
+/root/dotnet/mvc_runtime_example/bin/Release/net7.0/publish/mvc_runtime_example.deps.json
+/root/dotnet/mvc_runtime_example/bin/Release/net7.0/publish/mvc_runtime_example.runtimeconfig.json
+/root/dotnet/mvc_runtime_example/bin/Release/net7.0/publish/mvc_runtime_example.pdb
