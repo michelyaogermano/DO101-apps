@@ -1,36 +1,25 @@
-# ===============================
-# 🔨 Etapa 1 — Build (com SDK)
-# ===============================
+# 🔨 Etapa 1: Build
 FROM mcr.microsoft.com/dotnet/sdk:7.0
 
-# Cria diretório de trabalho
-WORKDIR /src
+WORKDIR /source
 
-# Copia csproj e restaura as dependências primeiro (cache eficiente)
-COPY *.csproj ./
+# Copia tudo para o container e restaura dependências
+COPY . .
 RUN dotnet restore
 
-# Copia o restante do código
-COPY . ./
+# Publica em modo Release para pasta /app
+RUN dotnet publish -c Release -o /app
 
-# Publica a aplicação para produção
-RUN dotnet publish -c Release -o /app --no-restore
-
-# ===============================
-# 🏃 Etapa 2 — Runtime (imagem leve)
-# ===============================
+# 🏃 Etapa 2: Runtime (imagem leve, sem SDK)
 FROM mcr.microsoft.com/dotnet/aspnet:7.0
 
-# Define pasta de trabalho
 WORKDIR /app
-
-# Copia a aplicação publicada da etapa anterior
 COPY --from=build /app .
 
-# Define a porta padrão (OpenShift escuta na 8080 por padrão)
+# OpenShift usa UID arbitrária — evite RUN como root
+# Define porta padrão (opcional)
 EXPOSE 8080
 ENV ASPNETCORE_URLS=http://+:8080
 
-# Inicia o app
+# Executa o app
 CMD ["dotnet", "my-app.dll"]
-
