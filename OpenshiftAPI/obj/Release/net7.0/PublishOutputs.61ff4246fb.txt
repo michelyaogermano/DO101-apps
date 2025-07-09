@@ -1,0 +1,12 @@
+/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/OpenshiftAPI/out/OpenshiftAPI
+/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/OpenshiftAPI/out/appsettings.Development.json
+/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/OpenshiftAPI/out/appsettings.json
+/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/OpenshiftAPI/out/OpenshiftAPI.dll
+/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/OpenshiftAPI/out/OpenshiftAPI.deps.json
+/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/OpenshiftAPI/out/OpenshiftAPI.runtimeconfig.json
+/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/OpenshiftAPI/out/OpenshiftAPI.pdb
+/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/OpenshiftAPI/out/Microsoft.AspNetCore.OpenApi.dll
+/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/OpenshiftAPI/out/Microsoft.OpenApi.dll
+/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/OpenshiftAPI/out/Swashbuckle.AspNetCore.Swagger.dll
+/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/OpenshiftAPI/out/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/OpenshiftAPI/out/Swashbuckle.AspNetCore.SwaggerUI.dll

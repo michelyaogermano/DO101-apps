@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "3SPD4b8JK/bHbnz+6EA5HvwFA0mNvJE5BCxkRAa82Qw=",
+  "Source": "OpenshiftAPI",
+  "BasePath": "_content/OpenshiftAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
