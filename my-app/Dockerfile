@@ -1,3 +1,5 @@
 FROM mcr.microsoft.com/dotnet/aspnet:7.0
 
-CMD ["dotnet", "Program.cs"]
+ADD /bin/Release/net7.0/ .
+
+CMD ["dotnet", "my-app.csproj"]
