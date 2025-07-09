@@ -1,5 +1,5 @@
 FROM registry.access.redhat.com/ubi8/dotnet-70-runtime
 
-ADD /bin/Release/net7.0/publish/ .
+ADD /bin/Release/net7.0/ .
 
-CMD ["dotnet", "mvc_runtime_example.dll"]
+CMD ["dotnet", "OpenshiftAPI.dll"]
