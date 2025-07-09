@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/dotnet-70-runtime:latest
+FROM mcr.microsoft.com/dotnet/aspnet:7.0
 
 ADD /bin/Release/net7.0/publish/ .
 
