@@ -1,22 +1,9 @@
-# 🔨 Etapa 1: Build
-FROM mcr.microsoft.com/dotnet/sdk:7.0
-
-WORKDIR /source
-
-# Copia tudo para o container e restaura dependências
-COPY . .
-RUN dotnet restore
-
-# Publica em modo Release para pasta /app
-RUN dotnet publish -c Release -o /app
-
-# 🏃 Etapa 2: Runtime (imagem leve, sem SDK)
 FROM mcr.microsoft.com/dotnet/aspnet:7.0
 
 WORKDIR /app
-COPY --from=build /app .
 
+# Copia os arquivos publicados do projeto .NET
+COPY /bin/Release/net7.0/publish/ .
 
-
-# Executa o app
+# Inicia o aplicativo
 CMD ["dotnet", "my-app.dll"]
