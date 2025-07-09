@@ -1,4 +1,4 @@
-namespace HelloApi;
+namespace OpenshiftAPI;
 
 public class WeatherForecast
 {

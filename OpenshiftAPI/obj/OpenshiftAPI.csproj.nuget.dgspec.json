@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/HelloApi/HelloApi.csproj": {}
+    "/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/OpenshiftAPI/OpenshiftAPI.csproj": {}
   },
   "projects": {
-    "/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/HelloApi/HelloApi.csproj": {
+    "/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/OpenshiftAPI/OpenshiftAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/HelloApi/HelloApi.csproj",
-        "projectName": "HelloApi",
-        "projectPath": "/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/HelloApi/HelloApi.csproj",
+        "projectUniqueName": "/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/OpenshiftAPI/OpenshiftAPI.csproj",
+        "projectName": "OpenshiftAPI",
+        "projectPath": "/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/OpenshiftAPI/OpenshiftAPI.csproj",
         "packagesPath": "/home/maogermano_lin/.nuget/packages/",
-        "outputPath": "/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/HelloApi/obj/",
+        "outputPath": "/home/maogermano_lin/vs/DO101-apps/DO101-apps-main/OpenshiftAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/maogermano_lin/.nuget/NuGet/NuGet.Config"
