@@ -1,0 +1,5 @@
+/root/my-app/bin/Release/net7.0/publish/my-app
+/root/my-app/bin/Release/net7.0/publish/my-app.dll
+/root/my-app/bin/Release/net7.0/publish/my-app.deps.json
+/root/my-app/bin/Release/net7.0/publish/my-app.runtimeconfig.json
+/root/my-app/bin/Release/net7.0/publish/my-app.pdb

@@ -1,0 +1,15 @@
+/root/my-app/bin/Release/net7.0/my-app
+/root/my-app/bin/Release/net7.0/my-app.deps.json
+/root/my-app/bin/Release/net7.0/my-app.runtimeconfig.json
+/root/my-app/bin/Release/net7.0/my-app.dll
+/root/my-app/bin/Release/net7.0/my-app.pdb
+/root/my-app/obj/Release/net7.0/my-app.csproj.AssemblyReference.cache
+/root/my-app/obj/Release/net7.0/my-app.GeneratedMSBuildEditorConfig.editorconfig
+/root/my-app/obj/Release/net7.0/my-app.AssemblyInfoInputs.cache
+/root/my-app/obj/Release/net7.0/my-app.AssemblyInfo.cs
+/root/my-app/obj/Release/net7.0/my-app.csproj.CoreCompileInputs.cache
+/root/my-app/obj/Release/net7.0/my-app.dll
+/root/my-app/obj/Release/net7.0/refint/my-app.dll
+/root/my-app/obj/Release/net7.0/my-app.pdb
+/root/my-app/obj/Release/net7.0/my-app.genruntimeconfig.cache
+/root/my-app/obj/Release/net7.0/ref/my-app.dll

@@ -1,0 +1,24 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0/rhel.9-arm64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {},
+    ".NETCoreApp,Version=v7.0/rhel.9-arm64": {
+      "my-app/1.0.0": {
+        "runtime": {
+          "my-app.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "my-app/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
