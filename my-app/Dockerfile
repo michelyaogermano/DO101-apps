@@ -22,5 +22,5 @@ EXPOSE 8080
 ENV ASPNETCORE_URLS=http://+:8080
 
 # Executa o app
-CMD ["dotnet", "my-app.dll"]
+CMD ["dotnet", "my-app.csproj"]
 
