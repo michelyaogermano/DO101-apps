@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\git-app-do101\\BlazorApp1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A3427F0-006E-45F0-960E-703AFBD93590}|BlazorApp1\\BlazorApp1.csproj|c:\\git-app-do101\\blazorapp1\\blazorapp1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6A3427F0-006E-45F0-960E-703AFBD93590}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\git-app-do101\\BlazorApp1\\BlazorApp1\\Dockerfile",
+              "RelativeDocumentMoniker": "BlazorApp1\\Dockerfile",
+              "ToolTip": "C:\\git-app-do101\\BlazorApp1\\BlazorApp1\\Dockerfile",
+              "RelativeToolTip": "BlazorApp1\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-14T19:06:45.292Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
