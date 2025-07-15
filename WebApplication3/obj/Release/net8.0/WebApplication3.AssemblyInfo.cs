@@ -13,7 +13,7 @@ using System.Reflection;
 
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("0002e9b2-90f9-4d7d-826e-7ecc42d26e52")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebApplication3")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef7d2810efa0153d545b6cca6af85b42c2564a8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebApplication3")]
